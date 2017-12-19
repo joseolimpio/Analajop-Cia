@@ -1,0 +1,10 @@
+INSERT INTO Area (CodArea, Nome) VALUES (1,"Arquitetura de Computadores");
+INSERT INTO Area (CodArea, Nome) VALUES (2,"Banco de Dados");
+INSERT INTO Area (CodArea, Nome) VALUES (3,"Computação e Sociedade");
+INSERT INTO Area (CodArea, Nome) VALUES (4,"Computação Gráfica e Imagens");
+INSERT INTO Area (CodArea, Nome) VALUES (5,"Engenharia de Software");
+INSERT INTO Area (CodArea, Nome) VALUES (6,"Fundamentos de Computação");
+INSERT INTO Area (CodArea, Nome) VALUES (7,"Inteligência Artificial");
+INSERT INTO Area (CodArea, Nome) VALUES (8,"Programação de Computadores");
+INSERT INTO Area (CodArea, Nome) VALUES (9,"Redes e Telecomunicações");
+INSERT INTO Area (CodArea, Nome) VALUES (10,"Sistemas Computacionais");
