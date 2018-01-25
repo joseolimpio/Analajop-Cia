@@ -36,9 +36,9 @@ CREATE TABLE Area (
 CREATE TABLE AreaInteresse (
                 Matricula CHAR(9) NOT NULL,
                 Semestre CHAR(5) NOT NULL,
-                Escolha INT NOT NULL,
+                Prioridade INT NOT NULL,
                 CodArea INT NOT NULL,
-                PRIMARY KEY (Matricula, Semestre, Escolha)
+                PRIMARY KEY (Matricula, Semestre, Prioridade)
 );
 
 
@@ -74,11 +74,11 @@ CREATE TABLE TurmaAlocada (
 
 CREATE TABLE TurmaSolicitada (
                 Matricula CHAR(9) NOT NULL,
-                Escolha INT NOT NULL,
+                Prioridade INT NOT NULL,
                 CodDisc CHAR(6) NOT NULL,
                 Semestre CHAR(5) NOT NULL,
                 CodTurma CHAR(6) NOT NULL,
-                PRIMARY KEY (Matricula, Escolha)
+                PRIMARY KEY (Matricula, Prioridade, Semestre)
 );
 
 

@@ -29,3 +29,4 @@ INSERT INTO Professor (CodProf, NomeProf) VALUES (28,"Tatiane Rios");
 INSERT INTO Professor (CodProf, NomeProf) VALUES (29,"Tiago Januario");
 INSERT INTO Professor (CodProf, NomeProf) VALUES (30,"Vaninha Vieira");
 INSERT INTO Professor (CodProf, NomeProf) VALUES (31,"Vinicius Petrucci");
+INSERT INTO Professor (CodProf, NomeProf) VALUES (32,"Marcos Ennes Barreto");
